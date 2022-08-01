@@ -23,7 +23,7 @@ services:
     postgres: 
         image: postgres:12.0-alpine
         volumes: 
-            - db_data
+            - db_data:/usr/src/app
         env_file: 
             - ./.env
         networks: 
