@@ -29,7 +29,6 @@ services:
             - ./.env.dev
         networks: 
             - back
-
     nginx: 
         build: ./nginx
         volumes: 
